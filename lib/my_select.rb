@@ -1,5 +1,5 @@
 def my_select(collection)
-  collection.each |item|
+  collection.each do |item|
     yield(item)
   end
 end
