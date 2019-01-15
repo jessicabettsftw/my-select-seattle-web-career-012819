@@ -1,5 +1,8 @@
 def my_select(collection)
+  new_array = []
   collection.each do |item|
-    yield(item)
+    bool =
+    if (yield(item) != nil)
+      
   end
 end
